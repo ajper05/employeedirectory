@@ -77,7 +77,7 @@ class EmployeeContainer extends Component {
             columns={[
               { title: "Employee Photo", field: "picture", sorting: false },
               { title: "First Name", field: "firstName" },
-              { title: "Last Name", field: "lastName", sorting: false },
+              { title: "Last Name", field: "lastName", sorting: true },
               { title: "Email", field: "email", sorting: false },
               { title: "Phone", field: "phone", sorting: false },
             ]}
