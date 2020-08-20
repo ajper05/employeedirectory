@@ -1,16 +1,14 @@
 import React, { Component } from "react";
-import Search from "./Search";
-import EmployeeResult from "./EmployeeResult";
 import API from "../utils/API";
 import MaterialTable from "material-table";
 
 class EmployeeContainer extends Component {
   state = {
     result: [],
-    filter: "",
-    filterBy: "lastName",
-    currentSort: "default",
-    sortField: "",
+    // filter: "",
+    // filterBy: "lastName",
+    // currentSort: "default",
+    // sortField: "",
   };
 
   // When this component mounts, grabs user info from the randomuser api
