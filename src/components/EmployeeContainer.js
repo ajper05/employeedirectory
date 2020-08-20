@@ -5,10 +5,6 @@ import MaterialTable from "material-table";
 class EmployeeContainer extends Component {
   state = {
     result: [],
-    // filter: "",
-    // filterBy: "lastName",
-    // currentSort: "default",
-    // sortField: "",
   };
 
   // When this component mounts, grabs user info from the randomuser api
